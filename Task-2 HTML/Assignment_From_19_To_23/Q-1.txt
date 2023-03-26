@@ -1,0 +1,62 @@
+العنصر 
+<header> 
+ليس عنصرًا تقسيميًا 
+(sectioning element)
+ أي أنه لن يؤدي إلى إنشاء قسم جديد في المستند؛
+ أي أنَّ الغرض من العنصر 
+ <header> 
+ هو احتواء ترويسة القسم المحيط به
+  وتوضع فيه عادةً الترويسات 
+ (<h1>‏-<h6>) 
+ لكن ذلك ليس إجباريًا.
+
+ يُمثِّل العنصر 
+ <nav> 
+ قسمًا من الصفحة غرضه هو توفير روابط للتنقل،
+  سواءً كانت ضمن المستند نفسه أو إلى مستندات أخرى.
+من أكثر الأمثلة شيوعًا هي القوائم وجداول المحتويات والفهارس.
+
+
+
+المحتوى الذي يوضع بداخل الوسم 
+<main> </main>
+ يتم عرضه على سطر منفرد و لكن هذا ليس الهدف من استخدامه. بشكل عام محتوى الصفحة الأساسي (أي موضوع الصفحة) يمكن وضعه بداخله.
+ 
+ 
+
+ المحتوى الذي يوضع بداخل الوسم 
+ <aside> </aside> 
+ يتم عرضه على سطر منفرد و لكن هذا ليس الهدف من استخدامه
+ . بشكل عام المحتوى الغير مرتبط بشكل مباشر بمحتوى الصفحة يمكن وضعه بداخل وسم من هذا النوع
+ . أيضاً إذا كان تصميم الصفحة يتضمن قائمة جانبية على طول الصفحة يمكن وضع محتوى القائمة بداخل وسم من هذا النوع
+
+<picture>
+تستخدم لتحديد عدة مصادر للصوره واختيار الانسب لها  
+
+
+The <figure> HTML element represents self-contained content,
+ potentially with an optional caption, which is specified using the <figcaption> element.
+  The figure, its caption,
+ and its contents are referenced as a single unit.
+
+
+
+ The <footer> HTML element represents a footer for its nearest ancestor sectioning content or sectioning root element.
+  A <footer> typically contains information about the author of the section, copyright data or links to related documents.
+
+
+<figcaption>
+شرح مرتبط ب الصوره او تعليق علي الصوره
+
+The <section> HTML element represents a generic standalone section of a document,
+ which doesn't have a more specific semantic element to represent it.
+ Sections should always have a heading, with very few exceptions.
+
+
+The <article> HTML element represents a self-contained composition in a document, page, application, or site, 
+which is intended to be independently distributable or reusable (e.g., in syndication).
+ Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment,
+  an interactive widget or gadget,or any other independent item of content.
+
+
+
