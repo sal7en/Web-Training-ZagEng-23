@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+
+a{
+    background-color: rgb(2, 124, 118);
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:white;
+    border-bottom: 4px solid rgb(1, 67, 64);
+    
+}

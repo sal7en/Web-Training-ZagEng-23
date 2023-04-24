@@ -1,0 +1,9 @@
+div {
+    background-color: rgb(155, 57, 57);
+    border: 10px solid rgb(155, 57, 57) ;
+    color: white;
+    width: fit-content;
+    max-width: 320px;
+    max-height:50px;
+    overflow: hidden;
+}

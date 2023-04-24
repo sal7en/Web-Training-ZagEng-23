@@ -1,0 +1,23 @@
+div{
+    background-color: aquamarine;
+    width: 400px;
+}
+
+
+div{
+    background-color: aquamarine;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+
+
+
+div{
+    background-color: aquamarine;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
