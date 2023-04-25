@@ -1,0 +1,42 @@
+.parent{
+    width: 1000px;
+    
+}
+    
+.parent .full{
+    width: calc((100% - 30px));
+}
+
+.parent .third{
+    width: calc((100% - 60px) / 3);
+    
+    
+}
+
+.parent .half{
+    width: calc((100% - 45px) / 2);
+}
+
+.parent .qart{
+    width: calc((100% - 75px) / 4);
+    
+}
+
+.full,
+.half,
+.qart,
+.third{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: rgb(122 122 122 / 30%);;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.clear{
+    clear: both;
+}

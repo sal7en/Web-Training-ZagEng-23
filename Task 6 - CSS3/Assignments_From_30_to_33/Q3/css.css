@@ -1,0 +1,21 @@
+
+.main{
+    width: 400px;
+    list-style-type: none;
+    transform: translate(130%);
+    
+}
+
+.one{
+    list-style: decimal outside ;
+    
+}
+
+.two{
+    list-style-type:upper-roman;
+    
+}
+
+li{
+    padding-top: 10px;
+}
