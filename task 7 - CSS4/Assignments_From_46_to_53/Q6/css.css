@@ -1,0 +1,92 @@
+:root{
+    --backgroundcolor: #9e9e9e80;
+    --padding:15px;
+    --width: 900px ;
+}
+
+.body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    
+}
+
+.page{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:var(--padding);
+    flex-flow: column wrap;
+    justify-content: space-between;
+    
+}
+
+.page .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--width);
+}
+
+.page .header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--backgroundcolor,#767575);
+    padding: var(--padding);
+    
+}
+
+.page .header .links{
+    background-color: var(--backgroundcolor,#767575);
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 87%;
+    padding: var(--padding);
+}
+
+li{
+    padding-left: var(--padding);
+}
+.page .main-area{
+    width: var(--width);
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.page .main-area .content{
+    display: flex;
+    background-color: var(--backgroundcolor,#767575);
+    align-items: stretch;
+    width: 55%;
+    padding: var(--padding);
+}
+
+.page .main-area .sidebar{
+    background-color: var(--backgroundcolor,#767575);
+    display: flex;
+    align-items: stretch;
+    width: 37%;
+    padding: var(--padding);
+}
+
+.page .footer{
+    display: flex;
+    width: var(--width);
+    margin-top: var(--padding);
+    
+}
+
+.page .footer .copyright{
+    background-color: var(--backgroundcolor,#767575);
+    width: 50%;
+    padding: var(--padding);
+}
+
+.page .footer .design{
+    background-color: var(--backgroundcolor,#767575);
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding: var(--padding);
+}   

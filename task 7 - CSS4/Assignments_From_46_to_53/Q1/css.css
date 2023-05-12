@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 4px solid rgb(32, 125, 254);
+    border-right: 4px solid orangered;
+    border-radius: 100px;
+    border-top: none;
+    border-bottom: none;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

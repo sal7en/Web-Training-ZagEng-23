@@ -1,0 +1,24 @@
+.parent{
+    text-align: center;
+    transition: all .5s;
+    height: 100px;
+}
+
+.parent:hover{
+    margin-top: -20px;
+}
+
+.one{
+    padding: 20px;
+}
+
+.two{
+    padding: 20px;
+    background-color: #eee;
+    transition: all .5s .5s;
+
+}
+
+.two:hover{
+    margin-top: 20px;
+}

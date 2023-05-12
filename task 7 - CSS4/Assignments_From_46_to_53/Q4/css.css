@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content:center;
+}
+
+.parent{
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.parent div{
+    display: flex;
+    background-color: #009688;
+    color: white;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.two{
+    align-self: flex-start  ;
+    width: 50%;
+}
+

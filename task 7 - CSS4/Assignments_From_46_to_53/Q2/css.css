@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.parent{
+    background-color: #eee;
+    width: 600px;
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{
+    text-align: center;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    width: calc(85% / 3);
+   
+    
+}
